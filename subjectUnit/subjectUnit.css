@@ -10,8 +10,7 @@
     background-color: #fdefe8;
  }
  .unit1{
-    display:flex;
-    
+    display:flex;  
     margin:10px;
     padding:10px;
     background-color: rgba(22, 21, 21, 0.89);
@@ -27,7 +26,7 @@
     text-shadow: 2px 2px 28px rgba(193, 136, 195, 0.89) ;
     text-shadow: -5px -5px 28px rgba(193, 136, 195, 0.89) ;
     box-shadow: 1px 1px  12px rgba(243, 151, 243, 0.89);
- 
+
  }
  .must{
     /* display:flex; */
@@ -152,3 +151,11 @@
  .emptybox{
     margin:auto;
  }
+ @media only screen and (max-width: 600px) {
+.unit1{
+   width: 80%;
+   font-size: 16px;
+   font-weight: normal;
+}
+
+ } 
