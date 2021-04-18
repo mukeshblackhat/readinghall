@@ -1,17 +1,8 @@
-/* *{
-   font-size: 4vh;
-   font-weight: bold;
-   filter:drop-shadow(0px 3px 5px rgba(130, 128, 131, 0.65))
-}
-body{
-   background-color: #fdefe8;
-   color:rgb(255, 255, 255);
-}*/
 *{
-   /* margin:0; */
-   /* padding:0; */
    text-decoration: none;
    color: inherit;
+   margin:0;
+   padding:0;
 }
 
 .home{
@@ -61,6 +52,7 @@ body{
    /* flex-direction: column; */
    font-weight: bolder;
    font-size: 2.5vh;
+   justify-content: flex-end;
     /* justify-content:space-between; */
 }
 
@@ -70,7 +62,7 @@ body{
    /* display: flex; */
 }
 .main{
-   margin:8px;
+   margin:20px;
    overflow: hidden;
    padding:10px;
    justify-content:center;
@@ -176,7 +168,7 @@ body{
    /* display:flex; */
    /* display:row; */
    border-radius: 15px;
-   /* margin:20px; */
+   margin:5vh;
    width: 75%;
    height:85%;
    position:relative;
@@ -207,6 +199,10 @@ body{
    z-index: -1;
    background: linear-gradient(235deg, #c751eb, #011250, #44005f); 
    filter: blur(40px);
+ }
+ .sub{
+    margin:20px;
+    padding:10px;
  }
  .sub1:hover{
    font-size: 3.5vh;
@@ -251,4 +247,38 @@ body{
    overflow: hidden;
   
 } 
+.sub1{
+   margin:5px;
+   padding:10px;
+}
+.sub12{
+   margin:5px;
+   padding:10px;
+}
+.sub2{
+   margin:5px;
+   padding:10px;
+}
+.sub3{
+   margin:5px;
+   padding:10px;
+}
+.sub4{
+   margin:5px;
+   padding:10px;
+}
+.sub5{
+   margin:5px;
+   padding:10px;
+}
+.sub6{
+   margin:5px;
+   padding:10px;
+}
+.sub7{
+   margin:5px;
+   padding:10px;
+}
+ 
+ 
  
